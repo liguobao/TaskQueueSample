@@ -2,6 +2,9 @@
 
 - API设计原则遵循 PayPal api-standards [API Design Patterns And Use Cases:asynchronous-operations](https://github.com/paypal/api-standards/blob/master/patterns.md#asynchronous-operations)
 
+
+实现上是有问题的，过阵子fix一下。
+
 ## 实现逻辑
 
 - 创建任务,生成"request-id"存储到对应redis zset队列中
